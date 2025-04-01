@@ -89,7 +89,7 @@ The pretrained checkpoint can be found at [Google Drive](https://drive.google.co
 git clone https://huggingface.co/ByteDance/MegaTTS3 checkpoints
 
 # you can delete readme and .gitattributes  and .git folder 
-``
+```
 
 > [!IMPORTANT]  
 > For security issues, we do not upload the parameters of WaveVAE encoder to the above links. You can only use the pre-extracted latents from [link1](https://drive.google.com/drive/folders/1QhcHWcy20JfqWjgqZX1YM3I6i9u4oNlr?usp=sharing) for inference. If you want to synthesize speech for speaker A, you need "A.wav" and "A.npy" in the same directory. If you have any questions or suggestions for our model, please email us.
