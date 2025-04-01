@@ -28,6 +28,32 @@
 
 
 ## Installation
+**Requirements (for WSL on Windows)**
+``` sh
+# Navigate to your project directoryhttps://github.com/almakedon/Bytedance-MegaTTS3
+git clone https://github.com/almakedon/Bytedance-MegaTTS3
+cd Bytedance-MegaTTS3
+
+# Create a Python virtual environment
+python3 -m venv megatts3-env
+
+# Activate the environment
+source megatts3-env/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set the PYTHONPATH
+export PYTHONPATH="/path/to/MegaTTS3:$PYTHONPATH"
+
+# Run this command to add it to your .bashrc
+echo 'export PYTHONPATH="/home/alex/Bytedance-MegaTTS3:$PYTHONPATH"' >> ~/.bashrc
+
+# Then source your .bashrc to apply the changes
+source ~/.bashrc
+
+```
+
 **Requirements (for Linux)**
 ``` sh
 # Create a python 3.9 conda env (you could also use virtualenv)
